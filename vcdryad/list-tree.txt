@@ -1,0 +1,12 @@
+./tree/avl/avl-delete-rec
+./tree/avl/avl-find-smallest
+./tree/avl/avl-insert-rec
+./tree/bst/bst-delete-rec
+./tree/bst/bst-find-rec
+./tree/bst/bst-insert-rec
+./tree/traverse/traverse-inorder
+./tree/traverse/traverse-posttorder
+./tree/traverse/traverse-preorder
+./tree/treap/treap-delete-rec
+./tree/treap/treap-find-rec
+./tree/treap/treap-insert-rec

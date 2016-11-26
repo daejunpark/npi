@@ -1,0 +1,13 @@
+Program                                   |P|   #R  Inv    Time
+inverse.bpl.bpl.out                       414  126   73   10.92
+pow.bpl.bpl.out                           160   60   31   16.75
+pow2.bpl.bpl.out                          109   55   34    2.53
+removeDuplicates.bpl.bpl.out              280   67   86    5.45
+set2.bpl.bpl.out                          556   73  188    7.92
+setFind.bpl.bpl.out                       492   74  136    3.57
+sparseGenEasy.bpl.bpl.out                 816  278   90   25.70
+sparseMul.bpl.bpl.out                     768  313   91   17.73
+stride.bpl.bpl.out                       1264   49   51   62.74
+stride2.bpl.bpl.out                       222   17   25    1.49
+sum1.bpl.bpl.out                          128   40   22    1.51
+summax.bpl.bpl.out                        192   61   45    5.16

@@ -1,0 +1,280 @@
++++ dirname ../houdini.sh
+++ cd ..
+++ pwd
++ dir=/home/daejunpark/pldi17
++ prelude=stride2.bpl.bpl
++ bpl=
++ opt='/typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer'
++ opt+=' /trace'
++ opt+=' /errorLimit:100 /z3multipleErrors'
++ opt+=' /proverMemoryLimit:1024'
++ rm -f houdiniCexTrace.bpl
++ mono /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/Boogie.exe /typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer /trace /errorLimit:100 /z3multipleErrors /proverMemoryLimit:1024 stride2.bpl.bpl
+[TRACE] Using prover: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/z3.exe
+Boogie program verifier version 2.2.30705.1126, Copyright (c) 2003-2013, Microsoft.
+Parsing stride2.bpl.bpl
+Coalescing blocks...
+Collecting existential constants...
+Building call graph...
+Number of implementations = 1
+Beginning VC generation for Houdini...
+Generating VC for main
+Verifying main
+Houdini assignment axiom: (And true b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.037704
+Removing b2
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.019984
+Removing b5
+Removing b6
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.021081
+Removing b7
+Removing b10
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) b8 b9 (! b10) b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.022058
+Removing b8
+Removing b14
+Removing b9
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) b11 b12 b13 (! b14) b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.025741
+Removing b11
+Removing b18
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) b12 b13 (! b14) b15 b16 b17 (! b18) b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.018211
+Removing b12
+Removing b22
+Removing b13
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 b21 (! b22) b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.023717
+Removing b25
+Removing b26
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 b21 (! b22) b23 b24 (! b25) (! b26) b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.015229
+Removing b30
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 b21 (! b22) b23 b24 (! b25) (! b26) b27 b28 b29 (! b30) b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.0173
+Removing b34
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 b21 (! b22) b23 b24 (! b25) (! b26) b27 b28 b29 (! b30) b31 b32 b33 (! b34) b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.209948
+Removing b37
+Removing b38
+Removing b39
+Removing b43
+Removing b44
+Removing b45
+Removing b48
+Removing b49
+Removing b50
+Removing b53
+Removing b54
+Removing b55
+Removing b58
+Removing b59
+Removing b60
+Removing b63
+Removing b64
+Removing b65
+Removing b68
+Removing b69
+Removing b70
+Removing b46
+Removing b47
+Removing b51
+Removing b52
+Removing b56
+Removing b57
+Removing b61
+Removing b62
+Removing b66
+Removing b67
+Removing b71
+Removing b72
+Removing b21
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 (! b21) (! b22) b23 b24 (! b25) (! b26) b27 b28 b29 (! b30) b31 b32 b33 (! b34) b35 b36 (! b37) (! b38) (! b39) b40 b41 b42 (! b43) (! b44) (! b45) (! b46) (! b47) (! b48) (! b49) (! b50) (! b51) (! b52) (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) (! b59) (! b60) (! b61) (! b62) (! b63) (! b64) (! b65) (! b66) (! b67) (! b68) (! b69) (! b70) (! b71) (! b72) b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109 b110 b111 b112 b113 b114 b115 b116 b117 b118 b119 b120 b121 b122 b123 b124 b125 b126 b127 b128 b129 b130 b131 b132 b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.330489
+Removing b73
+Removing b74
+Removing b75
+Removing b76
+Removing b78
+Removing b79
+Removing b80
+Removing b81
+Removing b83
+Removing b84
+Removing b85
+Removing b86
+Removing b88
+Removing b89
+Removing b90
+Removing b91
+Removing b93
+Removing b94
+Removing b95
+Removing b96
+Removing b98
+Removing b99
+Removing b100
+Removing b101
+Removing b103
+Removing b104
+Removing b105
+Removing b106
+Removing b107
+Removing b108
+Removing b109
+Removing b110
+Removing b111
+Removing b112
+Removing b113
+Removing b114
+Removing b115
+Removing b116
+Removing b117
+Removing b118
+Removing b119
+Removing b120
+Removing b121
+Removing b122
+Removing b123
+Removing b124
+Removing b125
+Removing b126
+Removing b127
+Removing b128
+Removing b129
+Removing b130
+Removing b131
+Removing b132
+Removing b77
+Removing b82
+Removing b87
+Removing b92
+Removing b97
+Removing b102
+Removing b23
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 (! b21) (! b22) (! b23) b24 (! b25) (! b26) b27 b28 b29 (! b30) b31 b32 b33 (! b34) b35 b36 (! b37) (! b38) (! b39) b40 b41 b42 (! b43) (! b44) (! b45) (! b46) (! b47) (! b48) (! b49) (! b50) (! b51) (! b52) (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) (! b59) (! b60) (! b61) (! b62) (! b63) (! b64) (! b65) (! b66) (! b67) (! b68) (! b69) (! b70) (! b71) (! b72) (! b73) (! b74) (! b75) (! b76) (! b77) (! b78) (! b79) (! b80) (! b81) (! b82) (! b83) (! b84) (! b85) (! b86) (! b87) (! b88) (! b89) (! b90) (! b91) (! b92) (! b93) (! b94) (! b95) (! b96) (! b97) (! b98) (! b99) (! b100) (! b101) (! b102) (! b103) (! b104) (! b105) (! b106) (! b107) (! b108) (! b109) (! b110) (! b111) (! b112) (! b113) (! b114) (! b115) (! b116) (! b117) (! b118) (! b119) (! b120) (! b121) (! b122) (! b123) (! b124) (! b125) (! b126) (! b127) (! b128) (! b129) (! b130) (! b131) (! b132) b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.022977
+Removing b29
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 (! b21) (! b22) (! b23) b24 (! b25) (! b26) b27 b28 (! b29) (! b30) b31 b32 b33 (! b34) b35 b36 (! b37) (! b38) (! b39) b40 b41 b42 (! b43) (! b44) (! b45) (! b46) (! b47) (! b48) (! b49) (! b50) (! b51) (! b52) (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) (! b59) (! b60) (! b61) (! b62) (! b63) (! b64) (! b65) (! b66) (! b67) (! b68) (! b69) (! b70) (! b71) (! b72) (! b73) (! b74) (! b75) (! b76) (! b77) (! b78) (! b79) (! b80) (! b81) (! b82) (! b83) (! b84) (! b85) (! b86) (! b87) (! b88) (! b89) (! b90) (! b91) (! b92) (! b93) (! b94) (! b95) (! b96) (! b97) (! b98) (! b99) (! b100) (! b101) (! b102) (! b103) (! b104) (! b105) (! b106) (! b107) (! b108) (! b109) (! b110) (! b111) (! b112) (! b113) (! b114) (! b115) (! b116) (! b117) (! b118) (! b119) (! b120) (! b121) (! b122) (! b123) (! b124) (! b125) (! b126) (! b127) (! b128) (! b129) (! b130) (! b131) (! b132) b133 b134 b135 b136 b137 b138 b139 b140 b141 b142 b143 b144 b145 b146 b147 b148 b149 b150 b151 b152 b153 b154 b155 b156 b157 b158 b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.10027
+Removing b24
+Removing b134
+Removing b138
+Removing b143
+Removing b148
+Removing b153
+Removing b158
+Removing b137
+Removing b135
+Removing b136
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 (! b21) (! b22) (! b23) (! b24) (! b25) (! b26) b27 b28 (! b29) (! b30) b31 b32 b33 (! b34) b35 b36 (! b37) (! b38) (! b39) b40 b41 b42 (! b43) (! b44) (! b45) (! b46) (! b47) (! b48) (! b49) (! b50) (! b51) (! b52) (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) (! b59) (! b60) (! b61) (! b62) (! b63) (! b64) (! b65) (! b66) (! b67) (! b68) (! b69) (! b70) (! b71) (! b72) (! b73) (! b74) (! b75) (! b76) (! b77) (! b78) (! b79) (! b80) (! b81) (! b82) (! b83) (! b84) (! b85) (! b86) (! b87) (! b88) (! b89) (! b90) (! b91) (! b92) (! b93) (! b94) (! b95) (! b96) (! b97) (! b98) (! b99) (! b100) (! b101) (! b102) (! b103) (! b104) (! b105) (! b106) (! b107) (! b108) (! b109) (! b110) (! b111) (! b112) (! b113) (! b114) (! b115) (! b116) (! b117) (! b118) (! b119) (! b120) (! b121) (! b122) (! b123) (! b124) (! b125) (! b126) (! b127) (! b128) (! b129) (! b130) (! b131) (! b132) b133 (! b134) (! b135) (! b136) (! b137) (! b138) b139 b140 b141 b142 (! b143) b144 b145 b146 b147 (! b148) b149 b150 b151 b152 (! b153) b154 b155 b156 b157 (! b158) b159 b160 b161 b162 b163 b164 b165 b166 b167 b168 b169 b170 b171 b172 b173 b174 b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 b194 b195 b196 b197 b198 b199 b200 b201 b202 b203 b204 b205 b206 b207 b208 b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.245
+Removing b40
+Removing b144
+Removing b145
+Removing b150
+Removing b159
+Removing b164
+Removing b173
+Removing b178
+Removing b142
+Removing b147
+Removing b152
+Removing b141
+Removing b146
+Removing b151
+Removing b194
+Removing b203
+Removing b208
+Removing b139
+Removing b140
+Removing b154
+Removing b168
+Removing b198
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 (! b21) (! b22) (! b23) (! b24) (! b25) (! b26) b27 b28 (! b29) (! b30) b31 b32 b33 (! b34) b35 b36 (! b37) (! b38) (! b39) (! b40) b41 b42 (! b43) (! b44) (! b45) (! b46) (! b47) (! b48) (! b49) (! b50) (! b51) (! b52) (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) (! b59) (! b60) (! b61) (! b62) (! b63) (! b64) (! b65) (! b66) (! b67) (! b68) (! b69) (! b70) (! b71) (! b72) (! b73) (! b74) (! b75) (! b76) (! b77) (! b78) (! b79) (! b80) (! b81) (! b82) (! b83) (! b84) (! b85) (! b86) (! b87) (! b88) (! b89) (! b90) (! b91) (! b92) (! b93) (! b94) (! b95) (! b96) (! b97) (! b98) (! b99) (! b100) (! b101) (! b102) (! b103) (! b104) (! b105) (! b106) (! b107) (! b108) (! b109) (! b110) (! b111) (! b112) (! b113) (! b114) (! b115) (! b116) (! b117) (! b118) (! b119) (! b120) (! b121) (! b122) (! b123) (! b124) (! b125) (! b126) (! b127) (! b128) (! b129) (! b130) (! b131) (! b132) b133 (! b134) (! b135) (! b136) (! b137) (! b138) (! b139) (! b140) (! b141) (! b142) (! b143) (! b144) (! b145) (! b146) (! b147) (! b148) b149 (! b150) (! b151) (! b152) (! b153) (! b154) b155 b156 b157 (! b158) (! b159) b160 b161 b162 b163 (! b164) b165 b166 b167 (! b168) b169 b170 b171 b172 (! b173) b174 b175 b176 b177 (! b178) b179 b180 b181 b182 b183 b184 b185 b186 b187 b188 b189 b190 b191 b192 b193 (! b194) b195 b196 b197 (! b198) b199 b200 b201 b202 (! b203) b204 b205 b206 b207 (! b208) b209 b210 b211 b212 b213 b214 b215 b216 b217 b218 b219 b220 b221 b222)
+Time taken = 0.261584
+Removing b160
+Removing b161
+Removing b166
+Removing b174
+Removing b175
+Removing b180
+Removing b188
+Removing b189
+Removing b157
+Removing b162
+Removing b167
+Removing b177
+Removing b182
+Removing b156
+Removing b195
+Removing b196
+Removing b197
+Removing b204
+Removing b205
+Removing b206
+Removing b207
+Removing b210
+Removing b211
+Removing b212
+Removing b218
+Removing b219
+Removing b155
+Removing b169
+Removing b170
+Removing b183
+Removing b184
+Removing b172
+Removing b199
+Removing b200
+Removing b201
+Removing b202
+Removing b213
+Removing b214
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 (! b21) (! b22) (! b23) (! b24) (! b25) (! b26) b27 b28 (! b29) (! b30) b31 b32 b33 (! b34) b35 b36 (! b37) (! b38) (! b39) (! b40) b41 b42 (! b43) (! b44) (! b45) (! b46) (! b47) (! b48) (! b49) (! b50) (! b51) (! b52) (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) (! b59) (! b60) (! b61) (! b62) (! b63) (! b64) (! b65) (! b66) (! b67) (! b68) (! b69) (! b70) (! b71) (! b72) (! b73) (! b74) (! b75) (! b76) (! b77) (! b78) (! b79) (! b80) (! b81) (! b82) (! b83) (! b84) (! b85) (! b86) (! b87) (! b88) (! b89) (! b90) (! b91) (! b92) (! b93) (! b94) (! b95) (! b96) (! b97) (! b98) (! b99) (! b100) (! b101) (! b102) (! b103) (! b104) (! b105) (! b106) (! b107) (! b108) (! b109) (! b110) (! b111) (! b112) (! b113) (! b114) (! b115) (! b116) (! b117) (! b118) (! b119) (! b120) (! b121) (! b122) (! b123) (! b124) (! b125) (! b126) (! b127) (! b128) (! b129) (! b130) (! b131) (! b132) b133 (! b134) (! b135) (! b136) (! b137) (! b138) (! b139) (! b140) (! b141) (! b142) (! b143) (! b144) (! b145) (! b146) (! b147) (! b148) b149 (! b150) (! b151) (! b152) (! b153) (! b154) (! b155) (! b156) (! b157) (! b158) (! b159) (! b160) (! b161) (! b162) b163 (! b164) b165 (! b166) (! b167) (! b168) (! b169) (! b170) b171 (! b172) (! b173) (! b174) (! b175) b176 (! b177) (! b178) b179 (! b180) b181 (! b182) (! b183) (! b184) b185 b186 b187 (! b188) (! b189) b190 b191 b192 b193 (! b194) (! b195) (! b196) (! b197) (! b198) (! b199) (! b200) (! b201) (! b202) (! b203) (! b204) (! b205) (! b206) (! b207) (! b208) b209 (! b210) (! b211) (! b212) (! b213) (! b214) b215 b216 b217 (! b218) (! b219) b220 b221 b222)
+Time taken = 0.090422
+Removing b176
+Removing b190
+Removing b191
+Removing b187
+Removing b192
+Removing b216
+Removing b217
+Removing b220
+Removing b221
+Removing b222
+Removing b171
+Removing b185
+Removing b186
+Removing b215
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 b17 (! b18) b19 b20 (! b21) (! b22) (! b23) (! b24) (! b25) (! b26) b27 b28 (! b29) (! b30) b31 b32 b33 (! b34) b35 b36 (! b37) (! b38) (! b39) (! b40) b41 b42 (! b43) (! b44) (! b45) (! b46) (! b47) (! b48) (! b49) (! b50) (! b51) (! b52) (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) (! b59) (! b60) (! b61) (! b62) (! b63) (! b64) (! b65) (! b66) (! b67) (! b68) (! b69) (! b70) (! b71) (! b72) (! b73) (! b74) (! b75) (! b76) (! b77) (! b78) (! b79) (! b80) (! b81) (! b82) (! b83) (! b84) (! b85) (! b86) (! b87) (! b88) (! b89) (! b90) (! b91) (! b92) (! b93) (! b94) (! b95) (! b96) (! b97) (! b98) (! b99) (! b100) (! b101) (! b102) (! b103) (! b104) (! b105) (! b106) (! b107) (! b108) (! b109) (! b110) (! b111) (! b112) (! b113) (! b114) (! b115) (! b116) (! b117) (! b118) (! b119) (! b120) (! b121) (! b122) (! b123) (! b124) (! b125) (! b126) (! b127) (! b128) (! b129) (! b130) (! b131) (! b132) b133 (! b134) (! b135) (! b136) (! b137) (! b138) (! b139) (! b140) (! b141) (! b142) (! b143) (! b144) (! b145) (! b146) (! b147) (! b148) b149 (! b150) (! b151) (! b152) (! b153) (! b154) (! b155) (! b156) (! b157) (! b158) (! b159) (! b160) (! b161) (! b162) b163 (! b164) b165 (! b166) (! b167) (! b168) (! b169) (! b170) (! b171) (! b172) (! b173) (! b174) (! b175) (! b176) (! b177) (! b178) b179 (! b180) b181 (! b182) (! b183) (! b184) (! b185) (! b186) (! b187) (! b188) (! b189) (! b190) (! b191) (! b192) b193 (! b194) (! b195) (! b196) (! b197) (! b198) (! b199) (! b200) (! b201) (! b202) (! b203) (! b204) (! b205) (! b206) (! b207) (! b208) b209 (! b210) (! b211) (! b212) (! b213) (! b214) (! b215) (! b216) (! b217) (! b218) (! b219) (! b220) (! b221) (! b222))
+Time taken = 0.025955
+Number of true assignments = 25
+Number of false assignments = 197
+Prover time = 1.49
+Unsat core prover time = 0.00
+Number of prover queries = 17
+Number of unsat core prover queries = 0
+Number of unsat core prunings = 0
+verified
+
+Boogie program verifier finished with 1 verified, 0 errors
++ rm -f houdiniCexTrace.bpl

@@ -1,0 +1,3 @@
+./os/openbsd/bsd_squeue_insert_head
+./os/openbsd/bsd_squeue_insert_tail
+./os/openbsd/bsd_squeue_remove_head

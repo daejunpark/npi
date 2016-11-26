@@ -1,0 +1,272 @@
++++ dirname ../houdini.sh
+++ cd ..
+++ pwd
++ dir=/home/daejunpark/pldi17
++ prelude=pow2.bpl.bpl
++ bpl=
++ opt='/typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer'
++ opt+=' /trace'
++ opt+=' /errorLimit:100 /z3multipleErrors'
++ opt+=' /proverMemoryLimit:1024'
++ rm -f houdiniCexTrace.bpl
++ mono /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/Boogie.exe /typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer /trace /errorLimit:100 /z3multipleErrors /proverMemoryLimit:1024 pow2.bpl.bpl
+[TRACE] Using prover: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/z3.exe
+Boogie program verifier version 2.2.30705.1126, Copyright (c) 2003-2013, Microsoft.
+Parsing pow2.bpl.bpl
+Coalescing blocks...
+Collecting existential constants...
+Building call graph...
+Number of implementations = 1
+Beginning VC generation for Houdini...
+Generating VC for main
+Verifying main
+Houdini assignment axiom: (And true b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.016725
+Removing b2
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.015533
+Removing b5
+Removing b6
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011219
+Removing b7
+Removing b10
+Removing b9
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) b8 (! b9) (! b10) b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.009622
+Removing b8
+Removing b11
+Removing b14
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) b12 b13 (! b14) b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.012294
+Removing b12
+Removing b13
+Removing b17
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) b15 b16 (! b17) b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011593
+Removing b15
+Removing b18
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) b16 (! b17) (! b18) b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.012521
+Removing b16
+Removing b21
+Removing b22
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) b19 b20 (! b21) (! b22) b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011931
+Removing b19
+Removing b23
+Removing b26
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) b20 (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 b29 b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.010182
+Removing b20
+Removing b29
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 b31 b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.007308
+Removing b31
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 b33 b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011106
+Removing b33
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 b35 b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011239
+Removing b35
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.01117
+Removing b38
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 b41 b42 b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.012241
+Removing b41
+Removing b42
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 b45 b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011381
+Removing b45
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) b46 b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.010809
+Removing b46
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 b50 b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.010437
+Removing b50
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 b54 b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.007362
+Removing b54
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 b57 b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.00698
+Removing b57
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) b58 b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.007139
+Removing b58
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 b61 b62 b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.009834
+Removing b61
+Removing b62
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 b65 b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.01149
+Removing b65
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) b66 b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011392
+Removing b66
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 b70 b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011494
+Removing b70
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 b74 b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011325
+Removing b74
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 b77 b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011288
+Removing b77
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) b78 b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.01114
+Removing b78
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 b81 b82 b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011508
+Removing b81
+Removing b82
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) b83 b84 b85 b86 b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.006203
+Removing b83
+Removing b86
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.010359
+Removing b89
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.005714
+Removing b91
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.007785
+Removing b93
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 b95 b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.00915
+Removing b95
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 b98 b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.00997
+Removing b98
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 b101 b102 b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.073013
+Removing b101
+Removing b102
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) b103 b104 b105 b106 b107 b108 b109)
+Time taken = 0.011212
+Removing b103
+Removing b104
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) b105 b106 b107 b108 b109)
+Time taken = 0.010346
+Removing b105
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 b107 b108 b109)
+Time taken = 0.064899
+Removing b107
+Removing b108
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) b109)
+Time taken = 0.011875
+Removing b109
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) b34 (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.01205
+Removing b34
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) (! b34) (! b35) b36 b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.012096
+Removing b36
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) (! b34) (! b35) (! b36) b37 (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.011395
+Removing b37
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) b39 b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.007593
+Removing b39
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 b53 (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.012078
+Removing b53
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) b55 b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.010606
+Removing b55
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 b69 (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.008742
+Removing b69
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 (! b69) (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 b85 (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.011911
+Removing b85
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 (! b69) (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 (! b85) (! b86) b87 b88 (! b89) b90 (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.009354
+Removing b90
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) b24 b25 (! b26) b27 b28 (! b29) b30 (! b31) b32 (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 (! b69) (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 (! b85) (! b86) b87 b88 (! b89) (! b90) (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.012715
+Removing b30
+Removing b24
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) (! b24) b25 (! b26) b27 b28 (! b29) (! b30) (! b31) b32 (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 (! b69) (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 (! b85) (! b86) b87 b88 (! b89) (! b90) (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.013948
+Removing b32
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) (! b24) b25 (! b26) b27 b28 (! b29) (! b30) (! b31) (! b32) (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) b40 (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 (! b69) (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 (! b85) (! b86) b87 b88 (! b89) (! b90) (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.013722
+Removing b40
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) (! b24) b25 (! b26) b27 b28 (! b29) (! b30) (! b31) (! b32) (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) (! b40) (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) b56 (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 (! b69) (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 (! b85) (! b86) b87 b88 (! b89) (! b90) (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.011206
+Removing b56
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) (! b24) b25 (! b26) b27 b28 (! b29) (! b30) (! b31) (! b32) (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) (! b40) (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) b59 b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 (! b69) (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 (! b85) (! b86) b87 b88 (! b89) (! b90) (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.011045
+Removing b59
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) (! b24) b25 (! b26) b27 b28 (! b29) (! b30) (! b31) (! b32) (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) (! b40) (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) (! b59) b60 (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 (! b69) (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 (! b85) (! b86) b87 b88 (! b89) (! b90) (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 0.012528
+Removing b60
+Verifying main
+Houdini assignment axiom: (And true b1 (! b2) b3 b4 (! b5) (! b6) (! b7) (! b8) (! b9) (! b10) (! b11) (! b12) (! b13) (! b14) (! b15) (! b16) (! b17) (! b18) (! b19) (! b20) (! b21) (! b22) (! b23) (! b24) b25 (! b26) b27 b28 (! b29) (! b30) (! b31) (! b32) (! b33) (! b34) (! b35) (! b36) (! b37) (! b38) (! b39) (! b40) (! b41) (! b42) b43 b44 (! b45) (! b46) b47 b48 b49 (! b50) b51 b52 (! b53) (! b54) (! b55) (! b56) (! b57) (! b58) (! b59) (! b60) (! b61) (! b62) b63 b64 (! b65) (! b66) b67 b68 (! b69) (! b70) b71 b72 b73 (! b74) b75 b76 (! b77) (! b78) b79 b80 (! b81) (! b82) (! b83) b84 (! b85) (! b86) b87 b88 (! b89) (! b90) (! b91) b92 (! b93) b94 (! b95) b96 b97 (! b98) b99 b100 (! b101) (! b102) (! b103) (! b104) (! b105) b106 (! b107) (! b108) (! b109))
+Time taken = 1.826292
+Number of true assignments = 34
+Number of false assignments = 75
+Prover time = 2.53
+Unsat core prover time = 0.00
+Number of prover queries = 55
+Number of unsat core prover queries = 0
+Number of unsat core prunings = 0
+verified
+
+Boogie program verifier finished with 1 verified, 0 errors
++ rm -f houdiniCexTrace.bpl

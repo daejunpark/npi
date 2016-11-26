@@ -1,0 +1,101 @@
++++ dirname ../houdini.sh
+++ cd ..
+++ pwd
++ dir=/home/daejunpark/pldi17
++ prelude=Vcc3Prelude.array.bpl
++ bpl=./os/expressos/split_memory_region.bpl.anon.pred.bpl
++ opt='/typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer'
++ opt+=' /trace'
++ opt+=' /errorLimit:100 /z3multipleErrors'
++ opt+=' /proverMemoryLimit:1024'
++ rm -f houdiniCexTrace.bpl
++ mono /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/Boogie.exe /typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer /trace /errorLimit:100 /z3multipleErrors /proverMemoryLimit:1024 Vcc3Prelude.array.bpl ./os/expressos/split_memory_region.bpl.anon.pred.bpl
+[TRACE] Using prover: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/z3.exe
+Boogie program verifier version 2.2.30705.1126, Copyright (c) 2003-2013, Microsoft.
+Parsing Vcc3Prelude.array.bpl
+Parsing ./os/expressos/split_memory_region.bpl.anon.pred.bpl
+Coalescing blocks...
+Collecting existential constants...
+Building call graph...
+Number of implementations = 2
+Beginning VC generation for Houdini...
+Generating VC for mem_reg#adm
+Generating VC for split_memory_region
+Verifying split_memory_region
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023)
+Time taken = 0.813343
+Removing b0007
+Removing b0002
+Removing b0002
+Removing b0005
+Removing b0002
+Removing b0002
+Verifying split_memory_region
+Houdini assignment axiom: (And true b0000 b0001 (! b0002) b0003 b0004 (! b0005) b0006 (! b0007) b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023)
+Time taken = 0.794069
+Removing b0008
+Removing b0003
+Removing b0003
+Removing b0003
+Removing b0003
+Verifying split_memory_region
+Houdini assignment axiom: (And true b0000 b0001 (! b0002) (! b0003) b0004 (! b0005) b0006 (! b0007) (! b0008) b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023)
+Time taken = 0.720116
+Removing b0010
+Removing b0009
+Removing b0009
+Removing b0009
+Removing b0009
+Verifying split_memory_region
+Houdini assignment axiom: (And true b0000 b0001 (! b0002) (! b0003) b0004 (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023)
+Time taken = 0.70538
+Removing b0011
+Removing b0011
+Removing b0011
+Removing b0011
+Removing b0011
+Verifying split_memory_region
+Houdini assignment axiom: (And true b0000 b0001 (! b0002) (! b0003) b0004 (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023)
+Time taken = 0.768092
+Removing b0012
+Removing b0013
+Removing b0013
+Removing b0014
+Removing b0014
+Removing b0014
+Verifying split_memory_region
+Houdini assignment axiom: (And true b0000 b0001 (! b0002) (! b0003) b0004 (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023)
+Time taken = 0.883563
+Removing b0018
+Removing b0020
+Removing b0017
+Removing b0017
+Removing b0016
+Removing b0015
+Removing b0015
+Verifying split_memory_region
+Houdini assignment axiom: (And true b0000 b0001 (! b0002) (! b0003) b0004 (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) b0019 (! b0020) b0021 b0022 b0023)
+Time taken = 0.746409
+Removing b0022
+Removing b0021
+Removing b0021
+Removing b0021
+Removing b0021
+Verifying split_memory_region
+Houdini assignment axiom: (And true b0000 b0001 (! b0002) (! b0003) b0004 (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) b0019 (! b0020) (! b0021) (! b0022) b0023)
+Time taken = 0.16645
+Verifying mem_reg#adm
+Houdini assignment axiom: (And true b0000 b0001 (! b0002) (! b0003) b0004 (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) b0019 (! b0020) (! b0021) (! b0022) b0023)
+Time taken = 0.016097
+Number of true assignments = 6
+Number of false assignments = 18
+Prover time = 5.61
+Unsat core prover time = 0.00
+Number of prover queries = 9
+Number of unsat core prover queries = 0
+Number of unsat core prunings = 0
+verified
+verified
+
+Boogie program verifier finished with 2 verified, 0 errors
++ rm -f houdiniCexTrace.bpl

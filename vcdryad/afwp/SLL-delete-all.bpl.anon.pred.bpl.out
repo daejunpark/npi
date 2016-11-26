@@ -1,0 +1,96 @@
++++ dirname ../houdini.sh
+++ cd ..
+++ pwd
++ dir=/home/daejunpark/pldi17
++ prelude=Vcc3Prelude.array.bpl
++ bpl=./afwp/SLL-delete-all.bpl.anon.pred.bpl
++ opt='/typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer'
++ opt+=' /trace'
++ opt+=' /errorLimit:100 /z3multipleErrors'
++ opt+=' /proverMemoryLimit:1024'
++ rm -f houdiniCexTrace.bpl
++ mono /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/Boogie.exe /typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer /trace /errorLimit:100 /z3multipleErrors /proverMemoryLimit:1024 Vcc3Prelude.array.bpl ./afwp/SLL-delete-all.bpl.anon.pred.bpl
+[TRACE] Using prover: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/z3.exe
+Boogie program verifier version 2.2.30705.1126, Copyright (c) 2003-2013, Microsoft.
+Parsing Vcc3Prelude.array.bpl
+Parsing ./afwp/SLL-delete-all.bpl.anon.pred.bpl
+Coalescing blocks...
+Collecting existential constants...
+Building call graph...
+Number of implementations = 1
+Beginning VC generation for Houdini...
+Generating VC for delete_all
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
+Time taken = 0.060052
+Removing b0010
+Removing b0004
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) b0005 b0006 b0007 b0008 b0009 (! b0010) b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
+Time taken = 0.024451
+Removing b0011
+Removing b0005
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 b0008 b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
+Time taken = 0.021431
+Removing b0008
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
+Time taken = 0.021204
+Removing b0009
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
+Time taken = 0.019555
+Removing b0012
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
+Time taken = 0.01966
+Removing b0013
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
+Time taken = 0.032321
+Removing b0016
+Removing b0018
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) b0017 (! b0018) b0019 b0020 b0021)
+Time taken = 0.026309
+Removing b0017
+Removing b0019
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) b0020 b0021)
+Time taken = 0.021912
+Removing b0020
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) b0021)
+Time taken = 0.017793
+Removing b0021
+Verifying delete_all
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
+Time taken = 2.155161
+Removing b0000
+Removing b0003
+Removing b0002
+Verifying delete_all
+Houdini assignment axiom: (And true (! b0000) b0001 (! b0002) (! b0003) (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
+Time taken = 3.109614
+Removing b0007
+Removing b0014
+Removing b0006
+Verifying delete_all
+Houdini assignment axiom: (And true (! b0000) b0001 (! b0002) (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
+Time taken = 0.064759
+Removing b0015
+Verifying delete_all
+Houdini assignment axiom: (And true (! b0000) b0001 (! b0002) (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
+Time taken = 0.259381
+Number of true assignments = 1
+Number of false assignments = 21
+Prover time = 5.85
+Unsat core prover time = 0.00
+Number of prover queries = 14
+Number of unsat core prover queries = 0
+Number of unsat core prunings = 0
+verified
+
+Boogie program verifier finished with 1 verified, 0 errors
++ rm -f houdiniCexTrace.bpl

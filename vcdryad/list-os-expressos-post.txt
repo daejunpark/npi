@@ -1,0 +1,3 @@
+./os/expressos/memory_region_create_user_space_region
+./os/expressos/memory_region_init
+./os/expressos/split_memory_region

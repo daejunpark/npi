@@ -1,0 +1,200 @@
++++ dirname ../houdini.sh
+++ cd ..
+++ pwd
++ dir=/home/daejunpark/pldi17
++ prelude=Vcc3Prelude.array.bpl
++ bpl=./grass/sl/sl_reverse.bpl.anon.pred.bpl
++ opt='/typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer'
++ opt+=' /trace'
++ opt+=' /errorLimit:100 /z3multipleErrors'
++ opt+=' /proverMemoryLimit:1024'
++ rm -f houdiniCexTrace.bpl
++ mono /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/Boogie.exe /typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer /trace /errorLimit:100 /z3multipleErrors /proverMemoryLimit:1024 Vcc3Prelude.array.bpl ./grass/sl/sl_reverse.bpl.anon.pred.bpl
+[TRACE] Using prover: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/z3.exe
+Boogie program verifier version 2.2.30705.1126, Copyright (c) 2003-2013, Microsoft.
+Parsing Vcc3Prelude.array.bpl
+Parsing ./grass/sl/sl_reverse.bpl.anon.pred.bpl
+Coalescing blocks...
+Collecting existential constants...
+Building call graph...
+Number of implementations = 1
+Beginning VC generation for Houdini...
+Generating VC for sl_reverse
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039 b0040 b0041 b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.076188
+Removing b0039
+Removing b0007
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 (! b0039) b0040 b0041 b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.050712
+Removing b0040
+Removing b0008
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 (! b0039) (! b0040) b0041 b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.037677
+Removing b0041
+Removing b0009
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 (! b0039) (! b0040) (! b0041) b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.039032
+Removing b0011
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 (! b0039) (! b0040) (! b0041) b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.047469
+Removing b0019
+Removing b0022
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) b0020 b0021 (! b0022) b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 (! b0039) (! b0040) (! b0041) b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.041849
+Removing b0020
+Removing b0024
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 (! b0039) (! b0040) (! b0041) b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.04429
+Removing b0025
+Removing b0027
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) b0026 (! b0027) b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 (! b0039) (! b0040) (! b0041) b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.051828
+Removing b0026
+Removing b0029
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 (! b0039) (! b0040) (! b0041) b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.036369
+Removing b0033
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) b0034 b0035 b0036 b0037 b0038 (! b0039) (! b0040) (! b0041) b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.047311
+Removing b0034
+Removing b0035
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) b0036 b0037 b0038 (! b0039) (! b0040) (! b0041) b0042 b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.048125
+Removing b0036
+Removing b0042
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) b0043 b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.033916
+Removing b0043
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 b0046 b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.038433
+Removing b0046
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 b0048 b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.042186
+Removing b0048
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) b0049 b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.038702
+Removing b0049
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) b0050 b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.035899
+Removing b0050
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) b0051 b0052 b0053 b0054 b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.036419
+Removing b0051
+Removing b0054
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) b0052 b0053 (! b0054) b0055 b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.037859
+Removing b0052
+Removing b0055
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 b0057 b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.035966
+Removing b0057
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) b0058 b0059 b0060 b0061 b0062)
+Time taken = 0.038024
+Removing b0058
+Removing b0059
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) b0060 b0061 b0062)
+Time taken = 0.057612
+Removing b0060
+Removing b0005
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.089459
+Removing b0006
+Removing b0003
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) b0010 (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.073814
+Removing b0010
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.072381
+Removing b0013
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 b0015 b0016 b0017 b0018 (! b0019) (! b0020) b0021 (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.088629
+Removing b0017
+Removing b0021
+Removing b0015
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) b0016 (! b0017) b0018 (! b0019) (! b0020) (! b0021) (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.069315
+Removing b0018
+Removing b0028
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) b0016 (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) b0023 (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) b0030 b0031 b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.077477
+Removing b0023
+Removing b0031
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) b0016 (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) b0030 (! b0031) b0032 (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.05912
+Removing b0037
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) b0016 (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) b0030 (! b0031) b0032 (! b0033) (! b0034) (! b0035) (! b0036) (! b0037) b0038 (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) b0044 b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.080683
+Removing b0038
+Removing b0044
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) b0016 (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) b0030 (! b0031) b0032 (! b0033) (! b0034) (! b0035) (! b0036) (! b0037) (! b0038) (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) (! b0044) b0045 (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.064596
+Removing b0045
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) b0016 (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) b0030 (! b0031) b0032 (! b0033) (! b0034) (! b0035) (! b0036) (! b0037) (! b0038) (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) (! b0044) (! b0045) (! b0046) b0047 (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.066346
+Removing b0047
+Verifying sl_reverse
+Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) b0004 (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) b0016 (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) b0030 (! b0031) b0032 (! b0033) (! b0034) (! b0035) (! b0036) (! b0037) (! b0038) (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) (! b0044) (! b0045) (! b0046) (! b0047) (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) b0053 (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.11979
+Removing b0004
+Removing b0053
+Removing b0000
+Verifying sl_reverse
+Houdini assignment axiom: (And true (! b0000) b0001 b0002 (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) b0016 (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) b0030 (! b0031) b0032 (! b0033) (! b0034) (! b0035) (! b0036) (! b0037) (! b0038) (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) (! b0044) (! b0045) (! b0046) (! b0047) (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) (! b0053) (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) b0061 b0062)
+Time taken = 0.135308
+Removing b0016
+Removing b0032
+Removing b0062
+Removing b0061
+Verifying sl_reverse
+Houdini assignment axiom: (And true (! b0000) b0001 b0002 (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) b0030 (! b0031) (! b0032) (! b0033) (! b0034) (! b0035) (! b0036) (! b0037) (! b0038) (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) (! b0044) (! b0045) (! b0046) (! b0047) (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) (! b0053) (! b0054) (! b0055) b0056 (! b0057) (! b0058) (! b0059) (! b0060) (! b0061) (! b0062))
+Time taken = 0.089269
+Removing b0056
+Verifying sl_reverse
+Houdini assignment axiom: (And true (! b0000) b0001 b0002 (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) b0030 (! b0031) (! b0032) (! b0033) (! b0034) (! b0035) (! b0036) (! b0037) (! b0038) (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) (! b0044) (! b0045) (! b0046) (! b0047) (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) (! b0053) (! b0054) (! b0055) (! b0056) (! b0057) (! b0058) (! b0059) (! b0060) (! b0061) (! b0062))
+Time taken = 0.097276
+Removing b0030
+Verifying sl_reverse
+Houdini assignment axiom: (And true (! b0000) b0001 b0002 (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) b0012 (! b0013) b0014 (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) (! b0028) (! b0029) (! b0030) (! b0031) (! b0032) (! b0033) (! b0034) (! b0035) (! b0036) (! b0037) (! b0038) (! b0039) (! b0040) (! b0041) (! b0042) (! b0043) (! b0044) (! b0045) (! b0046) (! b0047) (! b0048) (! b0049) (! b0050) (! b0051) (! b0052) (! b0053) (! b0054) (! b0055) (! b0056) (! b0057) (! b0058) (! b0059) (! b0060) (! b0061) (! b0062))
+Time taken = 0.063559
+Number of true assignments = 4
+Number of false assignments = 59
+Prover time = 2.16
+Unsat core prover time = 0.00
+Number of prover queries = 36
+Number of unsat core prover queries = 0
+Number of unsat core prunings = 0
+verified
+
+Boogie program verifier finished with 1 verified, 0 errors
++ rm -f houdiniCexTrace.bpl

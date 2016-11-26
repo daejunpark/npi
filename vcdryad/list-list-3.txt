@@ -1,0 +1,10 @@
+./glibc/glist/g_list_index
+./glibc/glist/g_list_length
+./glibc/glist/g_list_nth
+./glibc/glist/g_list_nth_data
+./glibc/glist/g_list_position
+./glibc/gslist/g_slist_index
+./glibc/gslist/g_slist_length
+./glibc/gslist/g_slist_nth
+./glibc/gslist/g_slist_nth_data
+./glibc/gslist/g_slist_position

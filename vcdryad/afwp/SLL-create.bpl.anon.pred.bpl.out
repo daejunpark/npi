@@ -1,0 +1,52 @@
++++ dirname ../houdini.sh
+++ cd ..
+++ pwd
++ dir=/home/daejunpark/pldi17
++ prelude=Vcc3Prelude.array.bpl
++ bpl=./afwp/SLL-create.bpl.anon.pred.bpl
++ opt='/typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer'
++ opt+=' /trace'
++ opt+=' /errorLimit:100 /z3multipleErrors'
++ opt+=' /proverMemoryLimit:1024'
++ rm -f houdiniCexTrace.bpl
++ mono /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/Boogie.exe /typeEncoding:m /prover:SMTLib /useArrayTheory /noinfer /contractInfer /trace /errorLimit:100 /z3multipleErrors /proverMemoryLimit:1024 Vcc3Prelude.array.bpl ./afwp/SLL-create.bpl.anon.pred.bpl
+[TRACE] Using prover: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/z3.exe
+Boogie program verifier version 2.2.30705.1126, Copyright (c) 2003-2013, Microsoft.
+Parsing Vcc3Prelude.array.bpl
+Parsing ./afwp/SLL-create.bpl.anon.pred.bpl
+Coalescing blocks...
+Collecting existential constants...
+Building call graph...
+Number of implementations = 1
+Beginning VC generation for Houdini...
+Generating VC for create
+Verifying create
+Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004)
+Time taken = 0.042433
+Removing b0001
+Verifying create
+Houdini assignment axiom: (And true b0000 (! b0001) b0002 b0003 b0004)
+Time taken = 0.024545
+Removing b0002
+Verifying create
+Houdini assignment axiom: (And true b0000 (! b0001) (! b0002) b0003 b0004)
+Time taken = 0.031118
+Removing b0003
+Verifying create
+Houdini assignment axiom: (And true b0000 (! b0001) (! b0002) (! b0003) b0004)
+Time taken = 0.024079
+Removing b0004
+Verifying create
+Houdini assignment axiom: (And true b0000 (! b0001) (! b0002) (! b0003) (! b0004))
+Time taken = 0.015869
+Number of true assignments = 1
+Number of false assignments = 4
+Prover time = 0.14
+Unsat core prover time = 0.00
+Number of prover queries = 5
+Number of unsat core prover queries = 0
+Number of unsat core prunings = 0
+verified
+
+Boogie program verifier finished with 1 verified, 0 errors
++ rm -f houdiniCexTrace.bpl
