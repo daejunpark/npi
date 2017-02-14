@@ -22,93 +22,93 @@ Beginning VC generation for Houdini...
 Generating VC for find_last_sorted
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.063264
+Time taken = 0.062839
 Removing b0004
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.030134
+Time taken = 0.02304
 Removing b0005
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.022296
+Time taken = 0.025657
 Removing b0008
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.027669
+Time taken = 0.025312
 Removing b0009
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.024485
+Time taken = 0.020757
 Removing b0012
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.020521
+Time taken = 0.018865
 Removing b0013
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.031091
+Time taken = 0.03012
 Removing b0016
 Removing b0018
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) b0017 (! b0018) b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.032116
+Time taken = 0.032343
 Removing b0017
 Removing b0019
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.027305
+Time taken = 0.026067
 Removing b0020
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.02874
+Time taken = 0.021519
 Removing b0021
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.059613
+Time taken = 0.067632
 Removing b0032
 Removing b0003
 Removing b0007
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 (! b0032) b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.050966
+Time taken = 0.053291
 Removing b0033
 Removing b0014
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 (! b0032) (! b0033) b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.038818
+Time taken = 0.039416
 Removing b0015
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 (! b0032) (! b0033) b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.15177
+Time taken = 0.159295
 Removing b0022
 Removing b0029
 Removing b0035
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) b0023 b0024 b0025 b0026 b0027 b0028 (! b0029) b0030 b0031 (! b0032) (! b0033) b0034 (! b0035) b0036 b0037 b0038 b0039)
-Time taken = 0.141007
+Time taken = 0.138251
 Removing b0023
 Removing b0030
 Removing b0039
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 b0025 b0026 b0027 b0028 (! b0029) (! b0030) b0031 (! b0032) (! b0033) b0034 (! b0035) b0036 b0037 b0038 (! b0039))
-Time taken = 0.123313
+Time taken = 0.129555
 Removing b0025
 Removing b0031
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 (! b0025) b0026 b0027 b0028 (! b0029) (! b0030) (! b0031) (! b0032) (! b0033) b0034 (! b0035) b0036 b0037 b0038 (! b0039))
-Time taken = 0.113387
+Time taken = 0.110722
 Removing b0027
 Removing b0036
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 (! b0025) b0026 (! b0027) b0028 (! b0029) (! b0030) (! b0031) (! b0032) (! b0033) b0034 (! b0035) (! b0036) b0037 b0038 (! b0039))
-Time taken = 0.099953
+Time taken = 0.109374
 Removing b0038
 Verifying find_last_sorted
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 (! b0025) b0026 (! b0027) b0028 (! b0029) (! b0030) (! b0031) (! b0032) (! b0033) b0034 (! b0035) (! b0036) b0037 (! b0038) (! b0039))
-Time taken = 0.175888
+Time taken = 0.094391
 Number of true assignments = 11
 Number of false assignments = 29
-Prover time = 1.26
+Prover time = 1.19
 Unsat core prover time = 0.00
 Number of prover queries = 19
 Number of unsat core prover queries = 0

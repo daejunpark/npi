@@ -22,64 +22,64 @@ Beginning VC generation for Houdini...
 Generating VC for dl_traverse
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.048108
+Time taken = 0.048256
 Removing b0010
 Removing b0004
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) b0005 b0006 b0007 b0008 b0009 (! b0010) b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.01275
+Time taken = 0.01284
 Removing b0011
 Removing b0005
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 b0008 b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.011524
+Time taken = 0.013024
 Removing b0008
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.012931
+Time taken = 0.015714
 Removing b0009
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.011526
+Time taken = 0.016866
 Removing b0012
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.008552
+Time taken = 0.008272
 Removing b0013
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.020259
+Time taken = 0.01711
 Removing b0016
 Removing b0018
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) b0017 (! b0018) b0019 b0020 b0021)
-Time taken = 0.019324
+Time taken = 0.019561
 Removing b0017
 Removing b0019
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) b0020 b0021)
-Time taken = 0.013304
+Time taken = 0.015203
 Removing b0020
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) b0021)
-Time taken = 0.011913
+Time taken = 0.009897
 Removing b0021
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
-Time taken = 0.023274
+Time taken = 0.020489
 Removing b0003
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
-Time taken = 0.022759
+Time taken = 0.021147
 Removing b0007
 Removing b0014
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
-Time taken = 0.021391
+Time taken = 0.019202
 Removing b0015
 Verifying dl_traverse
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
-Time taken = 0.027079
+Time taken = 0.022552
 Number of true assignments = 4
 Number of false assignments = 18
 Prover time = 0.26

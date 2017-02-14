@@ -370,8 +370,8 @@ p0004 := ($oset_disjoint(F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node)),F#dll_rea
 p0005 := ($oset_disjoint(F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node))));
 p0006 := ($oset_disjoint(F#dll_lseg_reach($s,$phys_ptr_cast(P#lst,^d_node),$phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node))));
 p0007 := ($oset_disjoint(F#dll_lseg_reach($s,$phys_ptr_cast(L#curr,^d_node),$phys_ptr_cast(P#lst,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node))));
-p0008 := ($oset_disjoint($oset_singleton($phys_ptr_cast(P#lst,^d_node)),F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node))));
-p0009 := ($oset_disjoint($oset_singleton($phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node))));
+p0008 := (($non_null($phys_ptr_cast(P#lst,^d_node)) ==> $oset_disjoint($oset_singleton($phys_ptr_cast(P#lst,^d_node)),F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node)))));
+p0009 := (($non_null($phys_ptr_cast(L#curr,^d_node)) ==> $oset_disjoint($oset_singleton($phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node)))));
 p0010 := ($non_null($phys_ptr_cast(P#lst,^d_node)));
 p0011 := ($non_null($phys_ptr_cast(L#curr,^d_node)));
 p0012 := ($is_null($phys_ptr_cast(P#lst,^d_node)));
@@ -397,8 +397,8 @@ invariant (p0004 == ($oset_disjoint(F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node)
 invariant (p0005 == ($oset_disjoint(F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node)))));
 invariant (p0006 == ($oset_disjoint(F#dll_lseg_reach($s,$phys_ptr_cast(P#lst,^d_node),$phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node)))));
 invariant (p0007 == ($oset_disjoint(F#dll_lseg_reach($s,$phys_ptr_cast(L#curr,^d_node),$phys_ptr_cast(P#lst,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node)))));
-invariant (p0008 == ($oset_disjoint($oset_singleton($phys_ptr_cast(P#lst,^d_node)),F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node)))));
-invariant (p0009 == ($oset_disjoint($oset_singleton($phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node)))));
+invariant (p0008 == (($non_null($phys_ptr_cast(P#lst,^d_node)) ==> $oset_disjoint($oset_singleton($phys_ptr_cast(P#lst,^d_node)),F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node))))));
+invariant (p0009 == (($non_null($phys_ptr_cast(L#curr,^d_node)) ==> $oset_disjoint($oset_singleton($phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node))))));
 invariant (p0010 == ($non_null($phys_ptr_cast(P#lst,^d_node))));
 invariant (p0011 == ($non_null($phys_ptr_cast(L#curr,^d_node))));
 invariant (p0012 == ($is_null($phys_ptr_cast(P#lst,^d_node))));
@@ -509,8 +509,8 @@ p0004 := ($oset_disjoint(F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node)),F#dll_rea
 p0005 := ($oset_disjoint(F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node))));
 p0006 := ($oset_disjoint(F#dll_lseg_reach($s,$phys_ptr_cast(P#lst,^d_node),$phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node))));
 p0007 := ($oset_disjoint(F#dll_lseg_reach($s,$phys_ptr_cast(L#curr,^d_node),$phys_ptr_cast(P#lst,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node))));
-p0008 := ($oset_disjoint($oset_singleton($phys_ptr_cast(P#lst,^d_node)),F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node))));
-p0009 := ($oset_disjoint($oset_singleton($phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node))));
+p0008 := (($non_null($phys_ptr_cast(P#lst,^d_node)) ==> $oset_disjoint($oset_singleton($phys_ptr_cast(P#lst,^d_node)),F#dll_reach($s,$phys_ptr_cast(L#curr,^d_node)))));
+p0009 := (($non_null($phys_ptr_cast(L#curr,^d_node)) ==> $oset_disjoint($oset_singleton($phys_ptr_cast(L#curr,^d_node)),F#dll_reach($s,$phys_ptr_cast(P#lst,^d_node)))));
 p0010 := ($non_null($phys_ptr_cast(P#lst,^d_node)));
 p0011 := ($non_null($phys_ptr_cast(L#curr,^d_node)));
 p0012 := ($is_null($phys_ptr_cast(P#lst,^d_node)));

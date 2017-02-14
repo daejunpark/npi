@@ -28,9 +28,9 @@ Negative example added
 Added: my_inv:1,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1: negative
 Negative example added
 Added: my_inv:1,1,0,0,0,0,1,0,1,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1: negative
-Prover Time taken = 0.210395
+Prover Time taken = 0.215219
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003257
+Learner (c5) Time taken = 0.004702
 Verifying g_slist_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool) : bool
 {
@@ -38,19 +38,19 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1: positive
-Prover Time taken = 0.047478
+Prover Time taken = 0.045316
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003683
+Learner (c5) Time taken = 0.003764
 Verifying g_slist_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool) : bool
 {
   b0003 && b0007 && b0011 && b0014 && b0015 && b0022 && b0023 && b0025 && b0027
 }
-Prover Time taken = 0.085274
+Prover Time taken = 0.087591
 Implication added
 Added implication: 3,4
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.00384
+Learner (c5) Time taken = 0.003814
 Verifying g_slist_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool) : bool
 {
@@ -58,33 +58,33 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1: positive
-Prover Time taken = 0.140629
+Prover Time taken = 0.136156
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003849
+Learner (c5) Time taken = 0.004004
 Verifying g_slist_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool) : bool
 {
   b0002 && b0006 && b0011 && b0024 && b0026
 }
-Prover Time taken = 0.109506
+Prover Time taken = 0.101217
 Implication added
 Added implication: 6,7
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003979
+Learner (c5) Time taken = 0.003926
 Verifying g_slist_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool) : bool
 {
   b0001 && b0002 && b0006 && b0011 && b0024 && b0026
 }
-Prover Time taken = 0.10948
-Prover Time taken = 0.090119
-Prover Time taken = 0.099566
-Prover Time taken = 0.102257
-Prover time = 0.99
+Prover Time taken = 0.112396
+Prover Time taken = 0.123174
+Prover Time taken = 0.120655
+Prover Time taken = 0.118016
+Prover time = 1.06
 Number of prover queries = 9
 C5 Learner time = 0.02
 Number of C5 Learner queries = 5
-Total time: 1.03
+Total time: 1.10
 Number of examples:2
 Number of counter-examples:3
 Number of implications:2

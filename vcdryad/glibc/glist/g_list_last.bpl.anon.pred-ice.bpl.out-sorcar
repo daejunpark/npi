@@ -28,9 +28,9 @@ Negative example added
 Added: my_inv:1,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,1,0,0,1: negative
 Negative example added
 Added: my_inv:1,1,0,0,0,0,1,0,1,0,1,1,0,0,0,0,1,0,0,1,0,0,1: negative
-Prover Time taken = 0.200588
+Prover Time taken = 0.20374
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.0029
+Learner (c5) Time taken = 0.004267
 Verifying g_list_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
@@ -38,19 +38,19 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0,0,1: positive
-Prover Time taken = 0.04648
+Prover Time taken = 0.046614
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003588
+Learner (c5) Time taken = 0.003686
 Verifying g_list_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
   b0003 && b0007 && b0011 && b0014 && b0015
 }
-Prover Time taken = 0.069227
+Prover Time taken = 0.069106
 Implication added
 Added implication: 3,4
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003648
+Learner (c5) Time taken = 0.003802
 Verifying g_list_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
@@ -58,33 +58,33 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1: positive
-Prover Time taken = 0.123717
+Prover Time taken = 0.116473
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003778
+Learner (c5) Time taken = 0.003769
 Verifying g_list_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
   b0002 && b0006 && b0011
 }
-Prover Time taken = 0.098435
+Prover Time taken = 0.106351
 Implication added
 Added implication: 6,7
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003817
+Learner (c5) Time taken = 0.003854
 Verifying g_list_last: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
   b0001 && b0002 && b0006 && b0011
 }
-Prover Time taken = 0.018351
-Prover Time taken = 0.014169
-Prover Time taken = 0.01418
-Prover Time taken = 0.018064
+Prover Time taken = 0.017697
+Prover Time taken = 0.014231
+Prover Time taken = 0.014378
+Prover Time taken = 0.014284
 Prover time = 0.60
 Number of prover queries = 9
 C5 Learner time = 0.02
 Number of C5 Learner queries = 5
-Total time: 0.64
+Total time: 0.65
 Number of examples:2
 Number of counter-examples:3
 Number of implications:2

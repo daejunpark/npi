@@ -22,70 +22,70 @@ Beginning VC generation for Houdini...
 Generating VC for dispose
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.049851
+Time taken = 0.048064
 Removing b0004
 Removing b0010
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) b0005 b0006 b0007 b0008 b0009 (! b0010) b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.023316
+Time taken = 0.023405
 Removing b0005
 Removing b0011
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 b0008 b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.021212
+Time taken = 0.016264
 Removing b0008
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.023424
+Time taken = 0.017327
 Removing b0009
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.020674
+Time taken = 0.014878
 Removing b0012
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.021305
+Time taken = 0.024513
 Removing b0013
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021)
-Time taken = 0.023457
+Time taken = 0.020735
 Removing b0016
 Removing b0018
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) b0017 (! b0018) b0019 b0020 b0021)
-Time taken = 0.018773
+Time taken = 0.026177
 Removing b0017
 Removing b0019
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) b0020 b0021)
-Time taken = 0.020005
+Time taken = 0.016779
 Removing b0020
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) b0021)
-Time taken = 0.02555
+Time taken = 0.015042
 Removing b0021
 Verifying dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
-Time taken = 0.22377
+Time taken = 0.231834
 Removing b0000
 Removing b0003
 Removing b0002
 Verifying dispose
 Houdini assignment axiom: (And true (! b0000) b0001 (! b0002) (! b0003) (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
-Time taken = 0.218351
+Time taken = 0.223187
 Removing b0007
 Removing b0014
 Removing b0006
 Verifying dispose
 Houdini assignment axiom: (And true (! b0000) b0001 (! b0002) (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
-Time taken = 0.027635
+Time taken = 0.028605
 Removing b0015
 Verifying dispose
 Houdini assignment axiom: (And true (! b0000) b0001 (! b0002) (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021))
-Time taken = 0.088175
+Time taken = 0.091503
 Number of true assignments = 1
 Number of false assignments = 21
-Prover time = 0.81
+Prover time = 0.80
 Unsat core prover time = 0.00
 Number of prover queries = 14
 Number of unsat core prover queries = 0

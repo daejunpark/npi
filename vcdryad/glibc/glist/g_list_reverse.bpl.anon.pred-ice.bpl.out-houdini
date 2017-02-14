@@ -22,15 +22,15 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 {
   true
 }
-Prover Time taken = 0.140169
-Prover Time taken = 0.111272
-Prover Time taken = 0.119372
-Prover Time taken = 0.113501
-Prover time = 0.48
+Prover Time taken = 0.145027
+Prover Time taken = 0.115441
+Prover Time taken = 0.113741
+Prover Time taken = 0.11374
+Prover time = 0.49
 Number of prover queries = 4
 C5 Learner time = 0.00
 Number of C5 Learner queries = 0
-Total time: 0.50
+Total time: 0.51
 Number of examples:0
 Number of counter-examples:0
 Number of implications:0

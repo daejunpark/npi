@@ -23,32 +23,32 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
   true
 }
 Negative example added
-Added: my_inv:1,0,0,0,1,1,0,1,0,1,0,1,1,0,0,0,1,1,1,0,1,0,1: negative
+Added: my_inv:1,0,0,0,1,1,0,1,1,1,0,1,1,0,0,0,1,1,1,0,1,0,1: negative
 Negative example added
-Overwrote: my_inv:1,0,0,0,1,1,0,1,0,1,0,1,1,0,0,0,1,1,1,0,1,0,1: negative
-Prover Time taken = 0.168478
+Overwrote: my_inv:1,0,0,0,1,1,0,1,1,1,0,1,1,0,0,0,1,1,1,0,1,0,1: negative
+Prover Time taken = 0.175413
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.0055
+Learner (c5) Time taken = 0.005426
 Verifying dispose: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
-  b0001 && b0002 && b0003 && b0006 && b0008 && b0010 && b0013 && b0014 && b0015 && b0019 && b0021
-}
-Positive example added
-Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1: positive
-Prover Time taken = 0.039407
-c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003602
-Verifying dispose: 
-function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
-{
-  b0001 && b0002 && b0003 && b0006 && b0010 && b0014 && b0015 && b0019
+  b0001 && b0002 && b0003 && b0006 && b0010 && b0013 && b0014 && b0015 && b0019 && b0021
 }
 Positive example added
 Added: my_inv:1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1: positive
-Prover Time taken = 0.082625
+Prover Time taken = 0.041165
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003658
+Learner (c5) Time taken = 0.003651
+Verifying dispose: 
+function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
+{
+  b0001 && b0002 && b0003 && b0006 && b0013 && b0014 && b0015 && b0019 && b0021
+}
+Positive example added
+Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1: positive
+Prover Time taken = 0.043655
+c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
+Learner (c5) Time taken = 0.003649
 Verifying dispose: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
@@ -56,33 +56,33 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0,0,1: positive
-Prover Time taken = 0.092336
+Prover Time taken = 0.092526
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003694
+Learner (c5) Time taken = 0.003748
 Verifying dispose: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
   b0001 && b0002 && b0003 && b0006 && b0014 && b0015
 }
-Prover Time taken = 0.077314
+Prover Time taken = 0.076369
 Implication added
 Added implication: 3,4
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003798
+Learner (c5) Time taken = 0.003855
 Verifying dispose: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
   b0001
 }
-Prover Time taken = 0.218608
-Prover Time taken = 0.197682
-Prover Time taken = 0.198883
-Prover Time taken = 0.201466
-Prover time = 1.28
+Prover Time taken = 0.218031
+Prover Time taken = 0.199155
+Prover Time taken = 0.201178
+Prover Time taken = 0.203612
+Prover time = 1.25
 Number of prover queries = 9
 C5 Learner time = 0.02
 Number of C5 Learner queries = 5
-Total time: 1.32
+Total time: 1.29
 Number of examples:3
 Number of counter-examples:2
 Number of implications:1

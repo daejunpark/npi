@@ -26,9 +26,9 @@ Negative example added
 Added: my_inv:1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1: negative
 Negative example added
 Added: my_inv:1,1,1,0,1,1,1,0,1,1,1,0,0,1,0,0,1,1,0,1,0,1,0,1,0,1,1,0,1,0,0,0,1,0,1,0,0,0,1,1,1,1,0,1,1,1,1,1,0,0,0,0,0,0,1: negative
-Prover Time taken = 0.183992
+Prover Time taken = 0.192094
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.00448
+Learner (c5) Time taken = 0.004447
 Verifying g_slist_length: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool) : bool
 {
@@ -36,9 +36,9 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,1,1,1,1: positive
-Prover Time taken = 0.055467
+Prover Time taken = 0.057155
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.002783
+Learner (c5) Time taken = 0.003674
 Verifying g_slist_length: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool) : bool
 {
@@ -46,9 +46,9 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,1,1,1,1: positive
-Prover Time taken = 0.115302
+Prover Time taken = 0.092665
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003876
+Learner (c5) Time taken = 0.00391
 Verifying g_slist_length: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool) : bool
 {
@@ -56,43 +56,43 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1: positive
-Prover Time taken = 0.152878
+Prover Time taken = 0.150218
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003857
+Learner (c5) Time taken = 0.003958
 Verifying g_slist_length: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool) : bool
 {
   b0001 && b0002 && b0003 && b0006 && b0007 && b0014 && b0015 && b0030 && b0031 && b0032 && b0033 && b0034 && b0035 && b0036 && b0037 && b0038 && b0039 && b0045 && b0046 && b0047 && b0050 && b0051 && b0052 && b0053
 }
-Prover Time taken = 0.080917
+Prover Time taken = 0.099633
 Implication added
 Added implication: 5,6
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003972
+Learner (c5) Time taken = 0.003944
 Verifying g_slist_length: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool) : bool
 {
   b0001 && b0002 && b0006 && b0032 && b0034 && b0036 && b0037 && b0038 && b0039 && b0050 && b0052
 }
-Prover Time taken = 0.334691
+Prover Time taken = 0.268874
 Implication added
 Added implication: 7,8
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003999
+Learner (c5) Time taken = 0.004015
 Verifying g_slist_length: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool) : bool
 {
   b0001 && b0002 && b0006 && b0032 && b0034 && b0038 && b0039 && b0050 && b0052
 }
-Prover Time taken = 0.213243
-Prover Time taken = 0.137249
-Prover Time taken = 0.137814
-Prover Time taken = 0.227162
-Prover time = 1.64
+Prover Time taken = 0.198617
+Prover Time taken = 0.196595
+Prover Time taken = 0.158694
+Prover Time taken = 0.238609
+Prover time = 1.65
 Number of prover queries = 10
 C5 Learner time = 0.02
 Number of C5 Learner queries = 6
-Total time: 1.69
+Total time: 1.71
 Number of examples:3
 Number of counter-examples:2
 Number of implications:2

@@ -23,18 +23,18 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
   true
 }
 Negative example added
-Added: my_inv:1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,0,1,0,0,1,0,0,1,1,0,1,1,0,1,1,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,1,1,0,0,1,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,1: negative
+Added: my_inv:1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,0,1,0,0,1,0,0,1,1,0,1,1,0,1,1,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,1: negative
 Negative example added
-Added: my_inv:1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1: negative
+Added: my_inv:1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,1,1,1,1,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1: negative
 Negative example added
-Added: my_inv:1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,1,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1: negative
+Added: my_inv:1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,1,0,0,0,1,0,1,0,1,1,1,1,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1: negative
 Negative example added
-Added: my_inv:1,1,1,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,1,0,0,0,1,0,1,0,1,1,0,1,0,0,1,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1,1,1,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1: negative
+Added: my_inv:1,1,1,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,1,0,0,0,1,0,1,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1,1,1,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1: negative
 Negative example added
-Added: my_inv:1,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,1,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,1: negative
-Prover Time taken = 0.884306
+Added: my_inv:1,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,1: negative
+Prover Time taken = 0.84561
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.houdini
-Learner (c5) Time taken = 0.006157
+Learner (c5) Time taken = 0.005996
 Verifying dl_filter: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool, b0055: bool, b0056: bool, b0057: bool, b0058: bool, b0059: bool, b0060: bool, b0061: bool, b0062: bool, b0063: bool, b0064: bool, b0065: bool, b0066: bool, b0067: bool, b0068: bool, b0069: bool, b0070: bool, b0071: bool, b0072: bool, b0073: bool, b0074: bool, b0075: bool, b0076: bool, b0077: bool, b0078: bool, b0079: bool, b0080: bool, b0081: bool, b0082: bool, b0083: bool, b0084: bool, b0085: bool, b0086: bool, b0087: bool, b0088: bool, b0089: bool, b0090: bool, b0091: bool, b0092: bool, b0093: bool, b0094: bool, b0095: bool, b0096: bool, b0097: bool, b0098: bool, b0099: bool, b0100: bool, b0101: bool, b0102: bool, b0103: bool, b0104: bool, b0105: bool, b0106: bool, b0107: bool, b0108: bool, b0109: bool, b0110: bool, b0111: bool, b0112: bool, b0113: bool, b0114: bool, b0115: bool, b0116: bool, b0117: bool, b0118: bool, b0119: bool, b0120: bool, b0121: bool, b0122: bool, b0123: bool, b0124: bool, b0125: bool, b0126: bool, b0127: bool, b0128: bool, b0129: bool, b0130: bool, b0131: bool, b0132: bool, b0133: bool, b0134: bool, b0135: bool, b0136: bool, b0137: bool, b0138: bool, b0139: bool, b0140: bool) : bool
 {
@@ -42,9 +42,9 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,0,1,0,0,1,0,1,1,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,1,1,0,0,1,1,1,1,0,0,1,1,1,0,0,1,1,1,0,1,0,0,1,0,0,0,0,1,0,1,1,1,1,1,1,1,0,1,0,0,1,0,0,1,0,0,1,0,1,0,1,1,0,1,0,0,0,1,1,0,0,0,1,0,1,1,0,1,1,1,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1: positive
-Prover Time taken = 0.067716
+Prover Time taken = 0.077872
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.houdini
-Learner (c5) Time taken = 0.004319
+Learner (c5) Time taken = 0.00441
 Verifying dl_filter: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool, b0055: bool, b0056: bool, b0057: bool, b0058: bool, b0059: bool, b0060: bool, b0061: bool, b0062: bool, b0063: bool, b0064: bool, b0065: bool, b0066: bool, b0067: bool, b0068: bool, b0069: bool, b0070: bool, b0071: bool, b0072: bool, b0073: bool, b0074: bool, b0075: bool, b0076: bool, b0077: bool, b0078: bool, b0079: bool, b0080: bool, b0081: bool, b0082: bool, b0083: bool, b0084: bool, b0085: bool, b0086: bool, b0087: bool, b0088: bool, b0089: bool, b0090: bool, b0091: bool, b0092: bool, b0093: bool, b0094: bool, b0095: bool, b0096: bool, b0097: bool, b0098: bool, b0099: bool, b0100: bool, b0101: bool, b0102: bool, b0103: bool, b0104: bool, b0105: bool, b0106: bool, b0107: bool, b0108: bool, b0109: bool, b0110: bool, b0111: bool, b0112: bool, b0113: bool, b0114: bool, b0115: bool, b0116: bool, b0117: bool, b0118: bool, b0119: bool, b0120: bool, b0121: bool, b0122: bool, b0123: bool, b0124: bool, b0125: bool, b0126: bool, b0127: bool, b0128: bool, b0129: bool, b0130: bool, b0131: bool, b0132: bool, b0133: bool, b0134: bool, b0135: bool, b0136: bool, b0137: bool, b0138: bool, b0139: bool, b0140: bool) : bool
 {
@@ -52,9 +52,9 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,0,1,0,0,1,0,1,1,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,1,1,0,0,1,1,1,1,0,0,1,1,1,0,0,1,1,1,0,1,0,0,1,0,0,0,0,1,0,1,1,1,1,1,1,1,0,1,0,0,1,0,0,1,0,0,1,0,1,0,1,1,0,1,0,0,0,1,1,0,0,0,1,0,1,1,0,1,0,1,0,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,1,0,1: positive
-Prover Time taken = 0.185571
+Prover Time taken = 0.186434
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.houdini
-Learner (c5) Time taken = 0.004559
+Learner (c5) Time taken = 0.004569
 Verifying dl_filter: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool, b0055: bool, b0056: bool, b0057: bool, b0058: bool, b0059: bool, b0060: bool, b0061: bool, b0062: bool, b0063: bool, b0064: bool, b0065: bool, b0066: bool, b0067: bool, b0068: bool, b0069: bool, b0070: bool, b0071: bool, b0072: bool, b0073: bool, b0074: bool, b0075: bool, b0076: bool, b0077: bool, b0078: bool, b0079: bool, b0080: bool, b0081: bool, b0082: bool, b0083: bool, b0084: bool, b0085: bool, b0086: bool, b0087: bool, b0088: bool, b0089: bool, b0090: bool, b0091: bool, b0092: bool, b0093: bool, b0094: bool, b0095: bool, b0096: bool, b0097: bool, b0098: bool, b0099: bool, b0100: bool, b0101: bool, b0102: bool, b0103: bool, b0104: bool, b0105: bool, b0106: bool, b0107: bool, b0108: bool, b0109: bool, b0110: bool, b0111: bool, b0112: bool, b0113: bool, b0114: bool, b0115: bool, b0116: bool, b0117: bool, b0118: bool, b0119: bool, b0120: bool, b0121: bool, b0122: bool, b0123: bool, b0124: bool, b0125: bool, b0126: bool, b0127: bool, b0128: bool, b0129: bool, b0130: bool, b0131: bool, b0132: bool, b0133: bool, b0134: bool, b0135: bool, b0136: bool, b0137: bool, b0138: bool, b0139: bool, b0140: bool) : bool
 {
@@ -62,27 +62,27 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Added: my_inv:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1: positive
-Prover Time taken = 0.194164
+Prover Time taken = 0.194611
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.houdini
-Learner (c5) Time taken = 0.004487
+Learner (c5) Time taken = 0.00453
 Verifying dl_filter: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool, b0055: bool, b0056: bool, b0057: bool, b0058: bool, b0059: bool, b0060: bool, b0061: bool, b0062: bool, b0063: bool, b0064: bool, b0065: bool, b0066: bool, b0067: bool, b0068: bool, b0069: bool, b0070: bool, b0071: bool, b0072: bool, b0073: bool, b0074: bool, b0075: bool, b0076: bool, b0077: bool, b0078: bool, b0079: bool, b0080: bool, b0081: bool, b0082: bool, b0083: bool, b0084: bool, b0085: bool, b0086: bool, b0087: bool, b0088: bool, b0089: bool, b0090: bool, b0091: bool, b0092: bool, b0093: bool, b0094: bool, b0095: bool, b0096: bool, b0097: bool, b0098: bool, b0099: bool, b0100: bool, b0101: bool, b0102: bool, b0103: bool, b0104: bool, b0105: bool, b0106: bool, b0107: bool, b0108: bool, b0109: bool, b0110: bool, b0111: bool, b0112: bool, b0113: bool, b0114: bool, b0115: bool, b0116: bool, b0117: bool, b0118: bool, b0119: bool, b0120: bool, b0121: bool, b0122: bool, b0123: bool, b0124: bool, b0125: bool, b0126: bool, b0127: bool, b0128: bool, b0129: bool, b0130: bool, b0131: bool, b0132: bool, b0133: bool, b0134: bool, b0135: bool, b0136: bool, b0137: bool, b0138: bool, b0139: bool, b0140: bool) : bool
 {
   b0000 && b0001 && b0002 && b0003 && b0004 && b0005 && b0006 && b0010 && b0011 && b0012 && b0013 && b0014 && b0015 && b0016 && b0019 && b0020 && b0021 && b0023 && b0026 && b0028 && b0029 && b0030 && b0034 && b0035 && b0036 && b0037 && b0038 && b0039 && b0042 && b0043 && b0044 && b0045 && b0052 && b0053 && b0056 && b0057 && b0058 && b0059 && b0062 && b0063 && b0064 && b0067 && b0068 && b0069 && b0071 && b0074 && b0079 && b0081 && b0082 && b0083 && b0084 && b0085 && b0086 && b0087 && b0089 && b0092 && b0095 && b0098 && b0105 && b0109 && b0110 && b0114 && b0116 && b0117 && b0119 && b0121 && b0125 && b0131 && b0132 && b0133 && b0140
 }
-Prover Time taken = 0.210575
+Prover Time taken = 0.208046
 Implication added
 Added implication: 5,8
 Implication added
 Added implication: 5,9
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.houdini
-Learner (c5) Time taken = 0.004908
+Learner (c5) Time taken = 0.005176
 Verifying dl_filter: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool, b0055: bool, b0056: bool, b0057: bool, b0058: bool, b0059: bool, b0060: bool, b0061: bool, b0062: bool, b0063: bool, b0064: bool, b0065: bool, b0066: bool, b0067: bool, b0068: bool, b0069: bool, b0070: bool, b0071: bool, b0072: bool, b0073: bool, b0074: bool, b0075: bool, b0076: bool, b0077: bool, b0078: bool, b0079: bool, b0080: bool, b0081: bool, b0082: bool, b0083: bool, b0084: bool, b0085: bool, b0086: bool, b0087: bool, b0088: bool, b0089: bool, b0090: bool, b0091: bool, b0092: bool, b0093: bool, b0094: bool, b0095: bool, b0096: bool, b0097: bool, b0098: bool, b0099: bool, b0100: bool, b0101: bool, b0102: bool, b0103: bool, b0104: bool, b0105: bool, b0106: bool, b0107: bool, b0108: bool, b0109: bool, b0110: bool, b0111: bool, b0112: bool, b0113: bool, b0114: bool, b0115: bool, b0116: bool, b0117: bool, b0118: bool, b0119: bool, b0120: bool, b0121: bool, b0122: bool, b0123: bool, b0124: bool, b0125: bool, b0126: bool, b0127: bool, b0128: bool, b0129: bool, b0130: bool, b0131: bool, b0132: bool, b0133: bool, b0134: bool, b0135: bool, b0136: bool, b0137: bool, b0138: bool, b0139: bool, b0140: bool) : bool
 {
-  b0001 && b0002 && b0003 && b0014 && b0015 && b0028 && b0038 && b0039 && b0044 && b0058 && b0068 && b0121 && b0132 && b0140
+  b0001 && b0002 && b0003 && b0014 && b0015 && b0028 && b0038 && b0039 && b0044 && b0058 && b0068 && b0083 && b0086 && b0121 && b0132 && b0140
 }
-Prover Time taken = 1.857017
+Prover Time taken = 1.840824
 Implication added
 Added implication: 10,11
 Implication added
@@ -90,21 +90,21 @@ Added implication: 12,13
 Implication added
 Added implication: 14,15
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.houdini
-Learner (c5) Time taken = 0.004894
+Learner (c5) Time taken = 0.005422
 Verifying dl_filter: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool, b0023: bool, b0024: bool, b0025: bool, b0026: bool, b0027: bool, b0028: bool, b0029: bool, b0030: bool, b0031: bool, b0032: bool, b0033: bool, b0034: bool, b0035: bool, b0036: bool, b0037: bool, b0038: bool, b0039: bool, b0040: bool, b0041: bool, b0042: bool, b0043: bool, b0044: bool, b0045: bool, b0046: bool, b0047: bool, b0048: bool, b0049: bool, b0050: bool, b0051: bool, b0052: bool, b0053: bool, b0054: bool, b0055: bool, b0056: bool, b0057: bool, b0058: bool, b0059: bool, b0060: bool, b0061: bool, b0062: bool, b0063: bool, b0064: bool, b0065: bool, b0066: bool, b0067: bool, b0068: bool, b0069: bool, b0070: bool, b0071: bool, b0072: bool, b0073: bool, b0074: bool, b0075: bool, b0076: bool, b0077: bool, b0078: bool, b0079: bool, b0080: bool, b0081: bool, b0082: bool, b0083: bool, b0084: bool, b0085: bool, b0086: bool, b0087: bool, b0088: bool, b0089: bool, b0090: bool, b0091: bool, b0092: bool, b0093: bool, b0094: bool, b0095: bool, b0096: bool, b0097: bool, b0098: bool, b0099: bool, b0100: bool, b0101: bool, b0102: bool, b0103: bool, b0104: bool, b0105: bool, b0106: bool, b0107: bool, b0108: bool, b0109: bool, b0110: bool, b0111: bool, b0112: bool, b0113: bool, b0114: bool, b0115: bool, b0116: bool, b0117: bool, b0118: bool, b0119: bool, b0120: bool, b0121: bool, b0122: bool, b0123: bool, b0124: bool, b0125: bool, b0126: bool, b0127: bool, b0128: bool, b0129: bool, b0130: bool, b0131: bool, b0132: bool, b0133: bool, b0134: bool, b0135: bool, b0136: bool, b0137: bool, b0138: bool, b0139: bool, b0140: bool) : bool
 {
   b0001 && b0002 && b0003 && b0014 && b0015 && b0038 && b0039 && b0068 && b0132 && b0140
 }
-Prover Time taken = 2.112144
-Prover Time taken = 2.151297
-Prover Time taken = 2.11769
-Prover Time taken = 2.129756
-Prover time = 11.91
+Prover Time taken = 2.119358
+Prover Time taken = 2.14784
+Prover Time taken = 2.152824
+Prover Time taken = 2.204056
+Prover time = 11.98
 Number of prover queries = 10
 C5 Learner time = 0.03
 Number of C5 Learner queries = 6
-Total time: 11.98
+Total time: 12.05
 Number of examples:3
 Number of counter-examples:5
 Number of implications:5

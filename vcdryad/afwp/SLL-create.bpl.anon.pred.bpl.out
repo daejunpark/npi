@@ -22,26 +22,26 @@ Beginning VC generation for Houdini...
 Generating VC for create
 Verifying create
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004)
-Time taken = 0.042433
+Time taken = 0.047905
 Removing b0001
 Verifying create
 Houdini assignment axiom: (And true b0000 (! b0001) b0002 b0003 b0004)
-Time taken = 0.024545
+Time taken = 0.024414
 Removing b0002
 Verifying create
 Houdini assignment axiom: (And true b0000 (! b0001) (! b0002) b0003 b0004)
-Time taken = 0.031118
+Time taken = 0.029526
 Removing b0003
 Verifying create
 Houdini assignment axiom: (And true b0000 (! b0001) (! b0002) (! b0003) b0004)
-Time taken = 0.024079
+Time taken = 0.029736
 Removing b0004
 Verifying create
 Houdini assignment axiom: (And true b0000 (! b0001) (! b0002) (! b0003) (! b0004))
-Time taken = 0.015869
+Time taken = 0.014767
 Number of true assignments = 1
 Number of false assignments = 4
-Prover time = 0.14
+Prover time = 0.15
 Unsat core prover time = 0.00
 Number of prover queries = 5
 Number of unsat core prover queries = 0

@@ -24,19 +24,19 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Negative example added
 Added: my_inv:0,1,0,1,0,1: negative
-Prover Time taken = 0.109998
+Prover Time taken = 0.107921
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.004062
+Learner (c5) Time taken = 0.003984
 Verifying create: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool) : bool
 {
   b0000 && b0002 && b0004
 }
-Prover Time taken = 0.050738
+Prover Time taken = 0.05206
 Implication added
 Added implication: 1,2
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.00347
+Learner (c5) Time taken = 0.003508
 Verifying create: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool) : bool
 {
@@ -44,28 +44,28 @@ function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: b
 }
 Positive example added
 Overwrote: my_inv:1,0,1,1,1,1: positive
-Prover Time taken = 0.034718
+Prover Time taken = 0.033424
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003515
+Learner (c5) Time taken = 0.003425
 Verifying create: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool) : bool
 {
   b0000 && b0004
 }
-Prover Time taken = 0.052959
+Prover Time taken = 0.059744
 Implication added
 Added implication: 2,3
 c5 filename: /home/daejunpark/pldi17/popl16ae/Boogie/Binaries/c5.0.sorcar
-Learner (c5) Time taken = 0.003523
+Learner (c5) Time taken = 0.003612
 Verifying create: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool) : bool
 {
   b0000
 }
-Prover Time taken = 0.011378
-Prover Time taken = 0.011696
-Prover Time taken = 0.012794
-Prover Time taken = 0.009255
+Prover Time taken = 0.011648
+Prover Time taken = 0.011358
+Prover Time taken = 0.00942
+Prover Time taken = 0.009189
 Prover time = 0.29
 Number of prover queries = 8
 C5 Learner time = 0.01

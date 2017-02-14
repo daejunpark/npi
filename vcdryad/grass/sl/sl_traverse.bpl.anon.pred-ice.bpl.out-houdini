@@ -19,24 +19,24 @@ Coalescing blocks...
 Generating VC of sl_traverse1
 Generating VC of sl_traverse2
 Verifying sl_traverse2: 
-Prover Time taken = 0.032681
-Prover Time taken = 0.006291
-Prover Time taken = 0.006739
-Prover Time taken = 0.015006
+Prover Time taken = 0.032304
+Prover Time taken = 0.006741
+Prover Time taken = 0.007116
+Prover Time taken = 0.006489
 Verifying sl_traverse1: 
 function {:existential true} {:inline} my_inv(b0000: bool, b0001: bool, b0002: bool, b0003: bool, b0004: bool, b0005: bool, b0006: bool, b0007: bool, b0008: bool, b0009: bool, b0010: bool, b0011: bool, b0012: bool, b0013: bool, b0014: bool, b0015: bool, b0016: bool, b0017: bool, b0018: bool, b0019: bool, b0020: bool, b0021: bool, b0022: bool) : bool
 {
   true
 }
-Prover Time taken = 0.016896
-Prover Time taken = 0.009694
-Prover Time taken = 0.009652
-Prover Time taken = 0.009612
-Prover time = 0.11
+Prover Time taken = 0.012362
+Prover Time taken = 0.009354
+Prover Time taken = 0.009403
+Prover Time taken = 0.009516
+Prover time = 0.09
 Number of prover queries = 8
 C5 Learner time = 0.00
 Number of C5 Learner queries = 0
-Total time: 0.12
+Total time: 0.11
 Number of examples:0
 Number of counter-examples:0
 Number of implications:0

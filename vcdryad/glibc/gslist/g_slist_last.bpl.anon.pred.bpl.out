@@ -22,88 +22,88 @@ Beginning VC generation for Houdini...
 Generating VC for g_slist_last
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.052207
+Time taken = 0.052719
 Removing b0004
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.026079
+Time taken = 0.025874
 Removing b0005
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.020597
+Time taken = 0.022714
 Removing b0008
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.022188
+Time taken = 0.02147
 Removing b0009
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.02671
+Time taken = 0.01991
 Removing b0012
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.031309
+Time taken = 0.028721
 Removing b0013
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.022643
+Time taken = 0.034284
 Removing b0016
 Removing b0018
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) b0017 (! b0018) b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.0274
+Time taken = 0.031727
 Removing b0017
 Removing b0019
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.02161
+Time taken = 0.023752
 Removing b0020
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.021159
+Time taken = 0.025561
 Removing b0021
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.036856
+Time taken = 0.038876
 Removing b0003
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.036913
+Time taken = 0.043164
 Removing b0007
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.035919
+Time taken = 0.033557
 Removing b0014
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.038498
+Time taken = 0.039199
 Removing b0015
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031)
-Time taken = 0.086046
+Time taken = 0.079536
 Removing b0022
 Removing b0028
 Removing b0029
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) b0023 b0024 b0025 b0026 b0027 (! b0028) (! b0029) b0030 b0031)
-Time taken = 0.072427
+Time taken = 0.075505
 Removing b0023
 Removing b0030
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 b0025 b0026 b0027 (! b0028) (! b0029) (! b0030) b0031)
-Time taken = 0.073001
+Time taken = 0.078785
 Removing b0025
 Removing b0031
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 (! b0025) b0026 b0027 (! b0028) (! b0029) (! b0030) (! b0031))
-Time taken = 0.102279
+Time taken = 0.120505
 Removing b0027
 Verifying g_slist_last
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) b0010 b0011 (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 (! b0025) b0026 (! b0027) (! b0028) (! b0029) (! b0030) (! b0031))
-Time taken = 0.064347
+Time taken = 0.07151
 Number of true assignments = 8
 Number of false assignments = 24
-Prover time = 0.82
+Prover time = 0.87
 Unsat core prover time = 0.00
 Number of prover queries = 19
 Number of unsat core prover queries = 0

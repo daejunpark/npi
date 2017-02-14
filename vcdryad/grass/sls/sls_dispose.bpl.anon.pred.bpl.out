@@ -22,51 +22,51 @@ Beginning VC generation for Houdini...
 Generating VC for sls_dispose
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.05782
+Time taken = 0.058456
 Removing b0004
 Removing b0010
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) b0005 b0006 b0007 b0008 b0009 (! b0010) b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.028591
+Time taken = 0.034484
 Removing b0005
 Removing b0011
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 b0008 b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.022762
+Time taken = 0.024591
 Removing b0008
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.023864
+Time taken = 0.023726
 Removing b0009
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.022992
+Time taken = 0.024024
 Removing b0012
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.018094
+Time taken = 0.019945
 Removing b0013
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.024865
+Time taken = 0.030937
 Removing b0016
 Removing b0018
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) b0017 (! b0018) b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.02303
+Time taken = 0.035351
 Removing b0017
 Removing b0019
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.021034
+Time taken = 0.023744
 Removing b0020
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.018095
+Time taken = 0.019203
 Removing b0021
 Verifying sls_dispose
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.362733
+Time taken = 0.377415
 Removing b0032
 Removing b0000
 Removing b0003
@@ -75,12 +75,12 @@ Removing b0006
 Removing b0014
 Verifying sls_dispose
 Houdini assignment axiom: (And true (! b0000) b0001 b0002 (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 (! b0032) b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.106826
+Time taken = 0.090979
 Removing b0033
 Removing b0015
 Verifying sls_dispose
 Houdini assignment axiom: (And true (! b0000) b0001 b0002 (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 (! b0032) (! b0033) b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.441093
+Time taken = 0.462951
 Removing b0002
 Removing b0022
 Removing b0025
@@ -90,7 +90,7 @@ Removing b0036
 Removing b0029
 Verifying sls_dispose
 Houdini assignment axiom: (And true (! b0000) b0001 (! b0002) (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) b0023 b0024 (! b0025) b0026 b0027 b0028 (! b0029) b0030 b0031 (! b0032) (! b0033) (! b0034) (! b0035) (! b0036) b0037 b0038 b0039)
-Time taken = 0.307018
+Time taken = 0.32848
 Removing b0023
 Removing b0027
 Removing b0038
@@ -98,16 +98,16 @@ Removing b0039
 Removing b0030
 Verifying sls_dispose
 Houdini assignment axiom: (And true (! b0000) b0001 (! b0002) (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 (! b0025) b0026 (! b0027) b0028 (! b0029) (! b0030) b0031 (! b0032) (! b0033) (! b0034) (! b0035) (! b0036) b0037 (! b0038) (! b0039))
-Time taken = 0.126384
+Time taken = 0.114521
 Removing b0024
 Removing b0026
 Removing b0031
 Verifying sls_dispose
 Houdini assignment axiom: (And true (! b0000) b0001 (! b0002) (! b0003) (! b0004) (! b0005) (! b0006) (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) (! b0024) (! b0025) (! b0026) (! b0027) b0028 (! b0029) (! b0030) (! b0031) (! b0032) (! b0033) (! b0034) (! b0035) (! b0036) b0037 (! b0038) (! b0039))
-Time taken = 0.043557
+Time taken = 0.0379
 Number of true assignments = 3
 Number of false assignments = 37
-Prover time = 1.65
+Prover time = 1.71
 Unsat core prover time = 0.00
 Number of prover queries = 16
 Number of unsat core prover queries = 0

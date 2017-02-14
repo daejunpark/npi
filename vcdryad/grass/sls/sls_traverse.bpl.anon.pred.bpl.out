@@ -22,92 +22,92 @@ Beginning VC generation for Houdini...
 Generating VC for sls_traverse1
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 b0004 b0005 b0006 b0007 b0008 b0009 b0010 b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.066883
+Time taken = 0.058364
 Removing b0010
 Removing b0004
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) b0005 b0006 b0007 b0008 b0009 (! b0010) b0011 b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.025822
+Time taken = 0.028343
 Removing b0011
 Removing b0005
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 b0008 b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.023849
+Time taken = 0.030894
 Removing b0008
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) b0009 (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.026656
+Time taken = 0.026854
 Removing b0009
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) b0012 b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.019433
+Time taken = 0.023579
 Removing b0012
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) b0013 b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.028162
+Time taken = 0.019264
 Removing b0013
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 b0016 b0017 b0018 b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.03671
+Time taken = 0.031051
 Removing b0016
 Removing b0018
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) b0017 (! b0018) b0019 b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.030336
+Time taken = 0.031486
 Removing b0017
 Removing b0019
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) b0020 b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.021249
+Time taken = 0.019902
 Removing b0020
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) b0021 b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.023902
+Time taken = 0.026037
 Removing b0021
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 b0003 (! b0004) (! b0005) b0006 b0007 (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) b0014 b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 b0032 b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.07286
+Time taken = 0.068365
 Removing b0032
 Removing b0003
 Removing b0014
 Removing b0007
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) b0015 (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 (! b0032) b0033 b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.043215
+Time taken = 0.036301
 Removing b0033
 Removing b0015
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) b0022 b0023 b0024 b0025 b0026 b0027 b0028 b0029 b0030 b0031 (! b0032) (! b0033) b0034 b0035 b0036 b0037 b0038 b0039)
-Time taken = 0.135878
+Time taken = 0.14362
 Removing b0022
 Removing b0029
 Removing b0035
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) b0023 b0024 b0025 b0026 b0027 b0028 (! b0029) b0030 b0031 (! b0032) (! b0033) b0034 (! b0035) b0036 b0037 b0038 b0039)
-Time taken = 0.12938
+Time taken = 0.123862
 Removing b0023
 Removing b0030
 Removing b0039
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 b0025 b0026 b0027 b0028 (! b0029) (! b0030) b0031 (! b0032) (! b0033) b0034 (! b0035) b0036 b0037 b0038 (! b0039))
-Time taken = 0.085751
+Time taken = 0.090734
 Removing b0025
 Removing b0031
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 (! b0025) b0026 b0027 b0028 (! b0029) (! b0030) (! b0031) (! b0032) (! b0033) b0034 (! b0035) b0036 b0037 b0038 (! b0039))
-Time taken = 0.096323
+Time taken = 0.084683
 Removing b0027
 Removing b0036
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 (! b0025) b0026 (! b0027) b0028 (! b0029) (! b0030) (! b0031) (! b0032) (! b0033) b0034 (! b0035) (! b0036) b0037 b0038 (! b0039))
-Time taken = 0.082022
+Time taken = 0.094076
 Removing b0038
 Verifying sls_traverse1
 Houdini assignment axiom: (And true b0000 b0001 b0002 (! b0003) (! b0004) (! b0005) b0006 (! b0007) (! b0008) (! b0009) (! b0010) (! b0011) (! b0012) (! b0013) (! b0014) (! b0015) (! b0016) (! b0017) (! b0018) (! b0019) (! b0020) (! b0021) (! b0022) (! b0023) b0024 (! b0025) b0026 (! b0027) b0028 (! b0029) (! b0030) (! b0031) (! b0032) (! b0033) b0034 (! b0035) (! b0036) b0037 (! b0038) (! b0039))
-Time taken = 0.140868
+Time taken = 0.090245
 Number of true assignments = 9
 Number of false assignments = 31
-Prover time = 1.09
+Prover time = 1.03
 Unsat core prover time = 0.00
 Number of prover queries = 18
 Number of unsat core prover queries = 0
