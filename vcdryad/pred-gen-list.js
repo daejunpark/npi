@@ -22,8 +22,8 @@ var patterns_heap = [
     ['disjoint_o', ['reach', 0   ], ['reach', 1]],
     ['disjoint_o', ['reach', 0, 1], ['reach', 1]],
     ['disjoint_o', ['reach', 0, 1], ['reach', 2]],
-    ['disjoint_o', ['singleton_o', 0], ['reach', 1   ]],
-    ['disjoint_o', ['singleton_o', 0], ['reach', 1, 2]],
+    ['implies', ['non_null', 0], ['disjoint_o', ['singleton_o', 0], ['reach', 1   ]]],
+    ['implies', ['non_null', 0], ['disjoint_o', ['singleton_o', 0], ['reach', 1, 2]]],
     //
     ['non_null', 0],
     ['is_null',  0],
